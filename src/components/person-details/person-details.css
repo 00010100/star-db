@@ -1,6 +1,5 @@
 .person-details {
   display: flex;
-  margin-top: 1rem;
   flex-direction: row;
   padding: 1rem;
 }
@@ -17,4 +16,10 @@
 
 .person-details .list-group-item .term {
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .person-details {
+    margin-top: 1rem;
+  }
 }
